@@ -1,6 +1,6 @@
 var cluster = require('cluster');
 if(cluster.isMaster){
-	//form #CPU's minus 1 (1 minimum)
+	//use #CPU's minus 1 (1 minimum)
 	var numcpu = require('os').cpus().length-1;
 	if(numcpu < 1){ numcpu = 1; }
 	for(var i=0;i<numcpu;i++){
