@@ -37,13 +37,14 @@ I run:
 
 This basically runs the server in dev mode (connecting to optional separate redis instances) and then uses uglifyjs2 and csso to minify the javascript to Client.js and CSS to Style.css. If all is good then restarting socket.js (server) should be good as well.
 
-FAQ
--
-"Why did you do X?" - I did not write this with open source and others opinions in mind. The server is written to be able to use DB.R (redis read) and DB.W (redis write) for scaling across machines. PUBSUB is used to ensures messages are sent across servers to all connected sockets.
+NOTES
+-----------
+
+The server is written to be able to use DB.R (redis read) and DB.W (redis write) for scaling across machines. PUBSUB is used to ensures messages are sent across servers to all connected sockets.
 
 
 License
--
+-----------
 
 MIT
 
