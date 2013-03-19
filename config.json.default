@@ -1,0 +1,27 @@
+{
+	"server":{
+		"DataBaseReadPort":"6380",
+		"DataBaseWritePort":"7380",
+		"ListenPort":"80",
+		"ListenSecurePort":"443",
+		"DataBaseReadPortDev":"6381",
+		"DataBaseWritePortDev":"7381",
+		"ListenPortDev":"9100",
+		"ListenSecurePortDev":"9101",
+		"RedisPassword":"your redis password"
+	},
+	"smtp":{
+		"host":"smtp.sendgrid.net",
+		"port":"587",
+		"domain":"coplete.com",
+		"from":"Coplete <info@coplete.com>",
+		"username":"sendgrid username ",
+		"password":"sendgrid password"
+	},
+	"domain":"coplete.com",
+	"certs":{
+		"key":"ssl/coplete.com.key",
+		"crt":"ssl/coplete.com.crt",
+		"ca":"ssl/coplete.com.bundle"
+	}
+}

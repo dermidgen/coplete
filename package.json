@@ -1,0 +1,25 @@
+{
+  "author": "Dan <dan@coplete.com>",
+  "description": "A simple collaborative task and conversation manager that empowers users to always know who has the ball.",
+  "version": "0.3.1-27",
+  "scripts": {
+    "start": "node socket.js"
+  },
+  "analyze": true,
+  "name": "Coplete",
+  "subdomain": "coplete",
+  "domains": [
+    "coplete.com",
+    "www.coplete.com"
+  ],
+  "engines": {
+    "node": "v0.8.x"
+  },
+  "dependencies": {
+    "ws": "0.4.22",
+    "http-proxy": "0.8.3",
+    "bcrypt": "",
+    "redis": "0.7.2",
+    "mailer": ""
+  }
+}
